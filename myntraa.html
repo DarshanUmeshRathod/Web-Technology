@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Myntra Navbar</title>
+
+<style>
+
+body{
+    font-family: Arial;
+}
+
+
+#navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:white;
+    height:75px;
+}
+
+
+#logo{
+    width:100px;
+    text-align:center;
+    font-weight:bold;
+    color:#ff3f6c;
+    font-size:22px;
+}
+
+/* Nav Links */
+#navlinks{
+    display:flex;
+    width:500px;
+    justify-content:space-around;
+}
+
+#navlinks a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:14px;
+}
+
+/* Search */
+#search{
+    width:400px;
+    text-align:center;
+}
+
+#search input{
+    width:150px;
+    height:30px;
+}
+
+/* Icons */
+#icons{
+    display:flex;
+    width:300px;
+    justify-content:space-around;
+    font-weight:bold;
+    font-size:14px;
+}
+#logo img{
+    height:75px;
+    width:100px;
+}
+sup{
+    color:red;
+    font-family:monospace;
+}
+
+.photo{
+    height:400px;
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+
+}
+</style>
+</head>
+
+<body>
+
+<nav id="navbar">
+
+    <div id="logo">
+        <img src="https://www.bing.com/th/id/OIP.sLrqZLmyCGYLMY1_Ee2spwHaEK?w=302&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3">
+    </div>
+
+    <div id="navlinks">
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">KIDS</a>
+        <a href="#">HOME</a>
+        <a href="#">BEAUTY <sup>NEW</sup></a>
+    </div>
+
+    <div id="search">
+        <input type="text" placeholder="Search products">
+    </div>
+
+    <div id="icons">
+        <div>Profile</div>
+        <div>Wishlist</div>
+        <div>Bag</div>
+    </div>
+
+</nav>
+
+<nav>
+    <div class="photo">
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png">
+                Wishlist
+            </a>
+        </div>
+
+        <div class="photo">
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png">
+                Bag
+            </a>
+        </div>
+</nav>
+
+</body>
+</html>
